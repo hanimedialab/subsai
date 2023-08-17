@@ -257,17 +257,17 @@ def webui() -> None:
                        initial_sidebar_state='auto')
 
     st.markdown(f"# Subs AI 🎞️")
-    st.markdown(
-        "### Subtitles generation tool powered by OpenAI's [Whisper](https://github.com/openai/whisper) and its "
-        "variants.")
+    # st.markdown(
+        # "### Subtitles generation tool powered by OpenAI's [Whisper](https://github.com/openai/whisper) and its "
+        # "variants.")
     st.sidebar.title("Settings")
-    st.info(
-        "This is an open source project and you are very welcome to **contribute** your awesome "
-        "comments, questions, ideas through "
-        "[discussions](https://github.com/abdeladim-s/subsai/discussions), "
-        "[issues](https://github.com/abdeladim-s/subsai/issues) and "
-        "[pull requests](https://github.com/abdeladim-s/subsai/pulls) "
-        "to the [project repository](https://github.com/abdeladim-s/subsai/). "
+    # st.info(
+        # "This is an open source project and you are very welcome to **contribute** your awesome "
+        # "comments, questions, ideas through "
+        # "[discussions](https://github.com/abdeladim-s/subsai/discussions), "
+        # "[issues](https://github.com/abdeladim-s/subsai/issues) and "
+        # "[pull requests](https://github.com/abdeladim-s/subsai/pulls) "
+        # "to the [project repository](https://github.com/abdeladim-s/subsai/). "
     )
 
     if 'transcribed_subs' in st.session_state:
@@ -279,7 +279,7 @@ def webui() -> None:
 
     with st.sidebar:
         with st.expander('Media file', expanded=True):
-            file_mode = st.selectbox("Select file mode", ['Local path', 'Upload'], index=0,
+            file_mode = st.selectbox("Select file mode", ['Upload', 'Local path'], index=0,
                                      help='Use `Local Path` if you are on a local machine, or use `Upload` to '
                                           'upload your files if you are using a remote server')
             if file_mode == 'Local path':
