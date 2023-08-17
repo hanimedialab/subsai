@@ -245,7 +245,7 @@ def webui() -> None:
     main web UI
     :return: None
     """
-    st.set_page_config(page_title='Subs AI',
+    st.set_page_config(page_title='AI 자동 자막 생성기',
                        page_icon="🎞️",
                        menu_items={
                            'Get Help': 'https://github.com/abdeladim-s/subsai',
