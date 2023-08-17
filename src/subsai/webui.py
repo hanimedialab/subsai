@@ -268,7 +268,7 @@ def webui() -> None:
         # "[issues](https://github.com/abdeladim-s/subsai/issues) and "
         # "[pull requests](https://github.com/abdeladim-s/subsai/pulls) "
         # "to the [project repository](https://github.com/abdeladim-s/subsai/). "
-    )
+    # )
 
     if 'transcribed_subs' in st.session_state:
         subs = st.session_state['transcribed_subs']
