@@ -256,7 +256,7 @@ def webui() -> None:
                        layout="wide",
                        initial_sidebar_state='auto')
 
-    st.markdown(f"# Subs AI 🎞️")
+    st.markdown(f"# AI 자동 자막 생성기 🎞️")
     # st.markdown(
         # "### Subtitles generation tool powered by OpenAI's [Whisper](https://github.com/openai/whisper) and its "
         # "variants.")
