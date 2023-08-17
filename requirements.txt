@@ -11,3 +11,5 @@ pywhispercpp==1.1.1
 dl_translate==0.2.6
 faster_whisper==0.5.1
 whisperx @ git+https://github.com/m-bain/whisperx.git
+setuptools-rust
+subsai @ git+https://github.com/abdeladim-s/subsai
