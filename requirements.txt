@@ -1,3 +1,4 @@
+pip==23.3.2
 torch==2.0.1
 openai-whisper==20230124
 streamlit
